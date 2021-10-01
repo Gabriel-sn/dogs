@@ -9,9 +9,7 @@ import LoginPasswordReset from './LoginPasswordReset';
 import { UserContext } from '../../UserContext';
 import { useContext } from 'react';
 
-
 const Login = () => {
-
     const {login} = useContext(UserContext);
 
     if(login === true) return <Navigate to='/conta'/>

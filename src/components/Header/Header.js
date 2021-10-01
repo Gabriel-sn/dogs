@@ -6,6 +6,7 @@ import { useContext } from 'react';
 
 const Header = () => {
     const {data, userLogout} = useContext(UserContext);
+    
     return (
         <header className={styles.header}>
             <nav className={`${styles.nav} container`}>

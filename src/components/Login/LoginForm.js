@@ -7,7 +7,7 @@ import useForm from "../../Hooks/useForm";
 import { UserContext } from "../../UserContext";
 import Button from "../Buttons/Button";
 import Input from "../Forms/Input";
-import Error from "../InterfaceElements/Error";
+import Error from "../Helper/Error";
 
 
 const LoginForm = () => {
