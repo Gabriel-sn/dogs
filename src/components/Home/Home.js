@@ -1,8 +1,10 @@
+import Feed from '../Feed/Feed';
+
 const Home = () => {
     return (
-        <>
-            <h1>Home</h1>
-        </>
+        <section className="container mainContainer">
+            <Feed />
+        </section>
     )
 }
 
