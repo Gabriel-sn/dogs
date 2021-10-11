@@ -46,6 +46,18 @@ display: grid;
     display: flex;
 }
 
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0, .4);
+    display: flex;
+    z-index: 1000;
+    padding: 2rem calc(4rem + 15px) 2rem 4rem;
+}
+
   
 @media (max-width: 40rem) {
     .feed {
@@ -55,5 +67,9 @@ display: grid;
     .photo:nth-child(2) {
         grid-column: initial;
         grid-row: initial;
+    }
+
+    .modal{
+        padding: 2rem calc(2rem + 15px) 2rem 2rem;
     }
 }
